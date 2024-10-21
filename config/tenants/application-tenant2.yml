@@ -1,0 +1,12 @@
+
+
+tenant:
+  id: tenant2
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tenant2
+    username: tenant2_user
+    password: tenant2_pass
+    schema: tenant2_schema
+    enabled: false
+
+
