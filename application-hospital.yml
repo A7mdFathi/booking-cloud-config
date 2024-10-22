@@ -1,7 +1,9 @@
 
-spring:
+tenant:
+  id: cinema
   datasource:
     url: jdbc:mysql://localhost:3306/booking
     username: beshara
     password: BesharaPassword
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    schema: tenant1_schema
+    enabled: true
