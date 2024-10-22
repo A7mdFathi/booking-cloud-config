@@ -1,6 +1,4 @@
 
-
-
 tenant:
   id: tenant1
   datasource:
