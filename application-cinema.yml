@@ -7,7 +7,6 @@ tenant:
     url: jdbc:mysql://localhost:3306/booking
     username: beshara
     password: BesharaPassword
-    schema: tenant2_schema
     enabled: false
 
 
