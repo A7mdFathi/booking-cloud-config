@@ -1,13 +1,11 @@
 
 
 
-tenant:
-  id: hospital
+spring:
   datasource:
     url: jdbc:mysql://localhost:3306/booking
     username: beshara
     password: BesharaPassword
-    schema: tenant2_schema
-    enabled: false
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 
