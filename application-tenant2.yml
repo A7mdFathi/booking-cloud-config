@@ -2,11 +2,11 @@
 
 
 tenant:
-  id: tenant2
+  id: hospital
   datasource:
-    url: jdbc:postgresql://localhost:5432/tenant2
-    username: tenant2_user
-    password: tenant2_pass
+    url: jdbc:mysql://localhost:3306/booking
+    username: beshara
+    password: BesharaPassword
     schema: tenant2_schema
     enabled: false
 
