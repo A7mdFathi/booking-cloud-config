@@ -1,12 +1,6 @@
-
-
-
-tenant:
-  id: hospital
+spring:
+  profiles: cinema
   datasource:
     url: jdbc:mysql://localhost:3306/booking
     username: beshara
     password: BesharaPassword
-    enabled: false
-
-
