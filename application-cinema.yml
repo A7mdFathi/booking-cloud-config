@@ -1,9 +1,12 @@
+
+
+
 spring:
-  profiles: cinema
+  id: hospital
   datasource:
     url: jdbc:mysql://localhost:3306/booking
     username: beshara
     password: BesharaPassword
+    enabled: false
 
-  config:
-    activate-on-profile: cinema
+
